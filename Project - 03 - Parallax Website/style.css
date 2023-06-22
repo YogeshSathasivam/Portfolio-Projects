@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.p-text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.text-bg{
+    background-color: #1e2020;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.p-image-1{
+    background-image: url(images/3.jpg);
+    min-height: 100%;   
+}
+
+.p-image-2{
+    background-image: url(images/2.jpg);
+    min-height: 400px;   
+}
+
+.p-image-3{
+    background-image: url(images/5.jpg);
+    min-height: 400px;   
+}
+
+.p-image-1, .p-image-2, .p-image-3{
+    background-attachment: fixed;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.sec-light{
+    background-color: #fff;
+    color: #1e2020;
+}
+.sec-light h2{
+    font-size: 35px;
+    padding-bottom: 25px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.sec-light p{
+    font-size: 18px;
+}
+
+.sec-dark{
+    background-color: #1e2020;
+    color: #fff;
+}
+.sec-dark h2{
+    font-size: 35px;
+    padding-bottom: 25px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.sec-dark p{
+    font-size: 18px;
+}

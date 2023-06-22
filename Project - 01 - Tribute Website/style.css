@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #e5e5fd;
+    min-width: 100vh;
+    min-height: 100vh;
+    border: 10px solid #123;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.top-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-section h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+    padding: 10px 5px;
+}
+
+.top-section h4{
+    font-size: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.image{
+    border-radius: 25%;
+    overflow: hidden;
+}
+
+.image, img{
+    height: 300px;
+    width: 350px;
+}
+
+.about-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-section h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #1d1e4c;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.about-section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.biography-section{
+    margin: 50px 0px;
+}
+
+.biography-section h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #1d1e4c;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.biography-section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.footer{
+    margin: 50px 0px;
+}
+.footer p{
+    text-align: end;
+    font-size: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bolder;
+    transition: 0.2s ease;
+}
+.footer a:hover{
+    color: #1d1e4c;
+}
+
+@media (max-width:768px){
+    .top-section h1 {
+        font-size: 45px;
+        letter-spacing: 0px;
+    }
+    .top-section h4 {
+        font-size: 18px;
+        text-align: left;
+    }
+    .image{
+        border-radius: 0px;
+    }
+    
+    .image, img{
+        height: 200px;
+        width: 250px;
+        padding: 5px;
+    }
+    .about-section {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .about-section h2{
+        padding: 15px;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .about-section p {
+        font-size: 18px;
+        padding: 15px;
+    }
+    .biography-section h2 {
+        padding: 15px;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .biography-section p{
+        font-size: 18px;
+        padding: 15px;
+    }
+    .footer p {
+        padding: 15px;
+        text-align: end;
+        font-size: 22px;
+    }
+}

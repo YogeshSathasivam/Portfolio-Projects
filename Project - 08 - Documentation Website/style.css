@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+}
+
+header{
+    border: 1px solid grey;
+    height: 100vh;
+}
+
+nav h1{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    color: black;
+    font-weight: 500;
+}
+
+nav ul li:hover{
+    background-color: grey;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+
+/* Main Section */
+main{
+    padding: 50px;
+    max-width: 1200px;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+section h2{
+    font-size: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+section article{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section article ul{
+    margin-left: 25px;
+}
+
+section article ul li{
+    margin-bottom: 10px;
+}
+
+@media (max-width:480px){
+    body{
+        flex-direction: column;
+    }
+    header{
+        height: 200px;
+        overflow: auto;
+        overflow-y: scroll;
+    }
+}
